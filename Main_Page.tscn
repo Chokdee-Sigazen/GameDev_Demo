@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsxxwy2ekuyvo"]
+
+[ext_resource type="PackedScene" uid="uid://dxbfkmafl28y6" path="res://Assets/Ninja/ninja.tscn" id="1_d1fgn"]
+
+[node name="MainPage" type="Node2D"]
+position = Vector2(20, 17)
+
+[node name="Ninja" parent="." instance=ExtResource("1_d1fgn")]
