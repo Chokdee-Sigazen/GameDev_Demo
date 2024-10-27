@@ -17,7 +17,6 @@ func enter() -> void:
 	audio_stream_player_attack.play()
 	await animation_player.animation_finished
 	is_attack_finish = true
-	
 	pass
 
 func exit() -> void:
